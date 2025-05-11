@@ -32,7 +32,7 @@ const App = () => {
   });
 
     useGSAP(() => {
-    // if (!showContent) return;
+    if (!showContent) return;
 
     gsap.to(".main", {
       scale: 1,
@@ -59,9 +59,9 @@ const App = () => {
     });
 
     gsap.to(".character", {
-      scale: .5,
+      scale: .7,
       x: "-40%",
-      bottom: "-40%",
+      bottom: "-50%",
       rotate: 0,
       duration: 2,
       delay: "-.8",
@@ -154,7 +154,7 @@ const App = () => {
               />
               <div className="text text-white flex flex-col gap-3 absolute top-20 left-1/2 -translate-x-1/2 scale-[1.4] rotate-[-10deg]">
                 <h1 className="text-[5rem] leading-none -ml-40">grand</h1>
-                <h1 className="text-[5rem] leading-none ml-20">theft</h1>
+                <h1 className="text-[5rem] leading-none -ml-20">theft</h1>
                 <h1 className="text-[5rem] leading-none -ml-40">auto</h1>
               </div>
               <img 
@@ -176,6 +176,31 @@ const App = () => {
                 src="./ps5.png"
                 alt=""
               />
+            </div>
+          </div>
+          <div className="w-full h-screen flex items-center justify-center bg-black">
+            <div className="cntnr flex text-white w-full h-[100%] ">
+              <div className="limg relative w-1/3 h-full">
+                <img
+                  className="absolute scale-[1.1] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                  src="./imag.png"
+                  alt=""
+                />
+              </div>
+              <div className="rg w-[60%] py-15 px-10">
+                <h1 className="text-5xl">Still Running,</h1>
+                <h1 className="text-4xl">Not Hunting</h1>
+                <p className="mt-10 text-xl font-sans">
+            Grand Theft Auto VI (GTA 6) is the highly anticipated next chapter in Rockstar Games’ legendary open-world action series. Building on the massive success of GTA V, this installment aims to redefine what’s possible in open-world gaming, with cutting-edge graphics, deeper storylines, and an incredibly immersive environment.
+            Set in a modern-day reimagining of Vice City (Rockstar’s fictional version of Miami), GTA 6 features a sprawling, dynamic world that reacts to players’ choices and actions like never before. From neon-lit downtown streets to sun-drenched beaches, the game’s map is expected to be one of Rockstar’s most ambitious yet — combining dense urban areas with vast rural and coastal regions.
+                </p>
+                <p className="mt-5 text-xl font-sans">
+                 GTA 6 introduces new protagonists, rumored to include the series' first playable female lead. The story is expected to explore crime, loyalty, and ambition in a society shaped by money and power. With Rockstar’s signature satirical tone and cinematic storytelling, players can expect a gripping narrative and unforgettable characters.
+                </p>
+                <button className="bg-yellow-500 px-9 py-7 text-black mt-10 text-3xl rounded-2xl cursor-pointer hover:bg-yellow-700 transition-all duration-300">
+                  Download Now
+                </button>
+              </div>
             </div>
           </div>
           </div>
