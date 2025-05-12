@@ -15,8 +15,8 @@ Rockstar’s iconic aesthetic and uses smooth, timeline-based animations to deli
 
 ## 📸 Screenshots
 
-![Screenshot 1](./screenshots/Screenshot%2025-05-12%140603.png)
-![Screenshot 2](./screenshots/Screenshot%2025-05-12%140611.png)
+![Screenshot 1](./screenshots/Screenshot-2025-05-12-140603.png)
+![Screenshot 2](./screenshots/Screenshot-2025-05-12-140611.png)
 
 ---
 
