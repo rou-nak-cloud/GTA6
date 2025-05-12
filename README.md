@@ -8,14 +8,15 @@ Rockstar’s iconic aesthetic and uses smooth, timeline-based animations to deli
 ## 🚀 Live Demo
 
 [👉 View Live](https://gta6-ead8.onrender.com) 
-For some reason the animation and fonts are not working.. 
+
+ For some reason the animation and fonts are not working.. 
 
 ---
 
 ## 📸 Screenshots
 
-![Screenshot 1](./screenshots/screen1.png)
-![Screenshot 2](./screenshots/screen2.png)
+![Screenshot 1](./screenshots/Screenshot 2025-05-12 140603.png)
+![Screenshot 2](./screenshots/Screenshot 2025-05-12 140611.png)
 
 ---
 
