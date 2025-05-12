@@ -15,7 +15,7 @@ Rockstar’s iconic aesthetic and uses smooth, timeline-based animations to deli
 
 ## 📸 Screenshots
 
-![Screenshot 1](./screenshots/Screenshot 2025-05-12 140603.png)
+![Screenshot 1](/screenshots/Screenshot 2025-05-12 140603.png)
 ![Screenshot 2](./screenshots/Screenshot 2025-05-12 140611.png)
 
 ---
@@ -42,3 +42,36 @@ Rockstar’s iconic aesthetic and uses smooth, timeline-based animations to deli
 
 ## 📁 Folder Structure
 
+GTA6/
+├── public/
+│ └── images (sky.png, bg.png, girlbg.png, ps5.png)
+├── src/
+│ ├── components/
+│ │ └── Main.jsx
+│ └── App.jsx
+├── index.html
+├── tailwind.config.js
+└── vite.config.js
+
+
+---
+
+## 🧑‍💻 Getting Started
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/rou-nak-cloud/GTA6.git
+cd GTA6
+
+npm install
+
+npm run dev
+
+```
+
+📦 Dependencies
+    gsap
+    react
+    tailwindcss
+    vite
